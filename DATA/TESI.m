@@ -1,7 +1,7 @@
 clear all; close all; clc;
 
 %% Load Data
-
+%%SCALERA BOSS
 [FileName,PathName] = uigetfile( 'D:\PhD - Backup\Analysis\Protocollo Pre FOG\*.csv');
 filename = fullfile(PathName, FileName);
 data = readtable(filename);
